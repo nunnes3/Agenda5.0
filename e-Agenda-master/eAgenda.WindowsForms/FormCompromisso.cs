@@ -269,6 +269,5 @@ namespace eAgenda.WindowsForms
         }
 
         #endregion
-
     }
 }

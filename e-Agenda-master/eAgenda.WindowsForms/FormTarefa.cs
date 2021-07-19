@@ -168,8 +168,7 @@ namespace eAgenda.WindowsForms
             botoesECampos.BloquearBotoes(this.Controls);
 
             dataGridViewTarefa.DataSource = PopularGridTarefasConcluidas();
-            dataGridViewTarefa.DataSource = PopulandoGridTodasTarefas();
-            dataGridViewTarefa.DataSource = PopulandoGridTarefasPendentes();
+            
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
