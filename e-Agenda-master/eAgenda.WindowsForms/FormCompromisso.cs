@@ -212,8 +212,6 @@ namespace eAgenda.WindowsForms
             botoesECampos.LimparCampos(panelCompromissos.Controls);
 
             dataGridViewCompromisso.DataSource = PopulandoGridTodosCompromissos();
-            dataGridViewCompromisso.DataSource = PopulandoGridCompromissosPassados();
-            dataGridViewCompromisso.DataSource = PopulandoGridCompromissosFuturos();
         }
 
         private void radioButtonSim_CheckedChanged(object sender, EventArgs e)

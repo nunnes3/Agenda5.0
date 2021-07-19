@@ -160,8 +160,6 @@ namespace eAgenda.WindowsForms
             ExcluirTarefa();
 
             dataGridViewTarefa.DataSource = PopularGridTarefasConcluidas();
-            dataGridViewTarefa.DataSource = PopulandoGridTodasTarefas();
-            dataGridViewTarefa.DataSource = PopulandoGridTarefasPendentes();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -200,7 +198,7 @@ namespace eAgenda.WindowsForms
             textBoxId.Text = tarefa.Id.ToString();
             textBoxTitulo.Text = tarefa.Titulo;
             textBoxPercentual.Text = tarefa.Percentual.ToString();
-            comboBoxPrioridade.Text = tarefa.Prioridade.ToString();
+            comboBoxPrioridade.Text = tarefa.Prioridade.Chave.ToString();
             dateTimePickerDataInicial.Value = tarefa.DataCriacao;
             dateTimePickerConclusao.Value = tarefa.DataCriacao;
 
