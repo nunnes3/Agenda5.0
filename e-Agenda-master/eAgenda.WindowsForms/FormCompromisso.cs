@@ -50,11 +50,14 @@ namespace eAgenda.WindowsForms
                 {
                     controladorCompromisso.InserirNovo(compromisso);
                 }
-
-                resultadoValidacao = "";
-                resultadoValidacao += "Nesta data e horário já tem um compromisso agendado";
-                MessageBox.Show(resultadoValidacao);
-                botoesECampos.LimparCampos(this.Controls);
+                else
+                {
+                    resultadoValidacao = "";
+                    resultadoValidacao += "Nesta data e horário já tem um compromisso agendado";
+                    MessageBox.Show(resultadoValidacao);
+                    botoesECampos.LimparCampos(this.Controls);
+                }
+                
             }
             else
             {
@@ -86,11 +89,13 @@ namespace eAgenda.WindowsForms
                 {
                     controladorCompromisso.Editar(id, compromisso);
                 }
-             
+                else
+                {
                     resultadoValidacao = "";
                     resultadoValidacao += "Nesta data e horário já tem um compromisso agendado";
                     MessageBox.Show(resultadoValidacao);
                     botoesECampos.LimparCampos(this.Controls);
+                }
             }
             else{
 
@@ -190,8 +195,7 @@ namespace eAgenda.WindowsForms
             botoesECampos.LimparCampos(panelCompromissos.Controls);
 
             dataGridViewCompromisso.DataSource = PopulandoGridTodosCompromissos();
-            dataGridViewCompromisso.DataSource = PopulandoGridCompromissosPassados();
-            dataGridViewCompromisso.DataSource = PopulandoGridCompromissosFuturos();
+  
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
@@ -200,8 +204,6 @@ namespace eAgenda.WindowsForms
             botoesECampos.LimparCampos(panelCompromissos.Controls);
 
             dataGridViewCompromisso.DataSource = PopulandoGridTodosCompromissos();
-            dataGridViewCompromisso.DataSource = PopulandoGridCompromissosPassados();
-            dataGridViewCompromisso.DataSource = PopulandoGridCompromissosFuturos();
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
@@ -269,5 +271,6 @@ namespace eAgenda.WindowsForms
         }
 
         #endregion
+
     }
 }

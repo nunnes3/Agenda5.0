@@ -79,28 +79,28 @@ namespace eAgenda.WindowsForms
             this.maskedTextBoxTelefone.Mask = "(##)#####-####";
             this.maskedTextBoxTelefone.Name = "maskedTextBoxTelefone";
             this.maskedTextBoxTelefone.Size = new System.Drawing.Size(206, 22);
-            this.maskedTextBoxTelefone.TabIndex = 21;
+            this.maskedTextBoxTelefone.TabIndex = 3;
             // 
             // textBoxEmpresa
             // 
             this.textBoxEmpresa.Location = new System.Drawing.Point(492, 136);
             this.textBoxEmpresa.Name = "textBoxEmpresa";
             this.textBoxEmpresa.Size = new System.Drawing.Size(290, 22);
-            this.textBoxEmpresa.TabIndex = 20;
+            this.textBoxEmpresa.TabIndex = 6;
             // 
             // textBoxCargo
             // 
             this.textBoxCargo.Location = new System.Drawing.Point(647, 55);
             this.textBoxCargo.Name = "textBoxCargo";
             this.textBoxCargo.Size = new System.Drawing.Size(135, 22);
-            this.textBoxCargo.TabIndex = 19;
+            this.textBoxCargo.TabIndex = 5;
             // 
             // textBoxEmail
             // 
             this.textBoxEmail.Location = new System.Drawing.Point(66, 127);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(290, 22);
-            this.textBoxEmail.TabIndex = 18;
+            this.textBoxEmail.TabIndex = 2;
             // 
             // lblId
             // 
@@ -117,7 +117,7 @@ namespace eAgenda.WindowsForms
             this.textBoxId.Location = new System.Drawing.Point(492, 53);
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(111, 22);
-            this.textBoxId.TabIndex = 16;
+            this.textBoxId.TabIndex = 4;
             // 
             // dataGridViewContato
             // 
@@ -187,7 +187,7 @@ namespace eAgenda.WindowsForms
             this.textBoxNome.Location = new System.Drawing.Point(66, 55);
             this.textBoxNome.Name = "textBoxNome";
             this.textBoxNome.Size = new System.Drawing.Size(290, 22);
-            this.textBoxNome.TabIndex = 2;
+            this.textBoxNome.TabIndex = 1;
             // 
             // btnNovo
             // 

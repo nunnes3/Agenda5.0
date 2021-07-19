@@ -190,7 +190,7 @@ namespace eAgenda.WindowsForms
             this.textBoxLink.Location = new System.Drawing.Point(66, 100);
             this.textBoxLink.Name = "textBoxLink";
             this.textBoxLink.Size = new System.Drawing.Size(290, 22);
-            this.textBoxLink.TabIndex = 27;
+            this.textBoxLink.TabIndex = 2;
             // 
             // buttonBuscar
             // 
@@ -217,7 +217,7 @@ namespace eAgenda.WindowsForms
             this.maskedTextBoxHoraInicio.Mask = "00:00";
             this.maskedTextBoxHoraInicio.Name = "maskedTextBoxHoraInicio";
             this.maskedTextBoxHoraInicio.Size = new System.Drawing.Size(72, 22);
-            this.maskedTextBoxHoraInicio.TabIndex = 24;
+            this.maskedTextBoxHoraInicio.TabIndex = 4;
             this.maskedTextBoxHoraInicio.ValidatingType = typeof(System.DateTime);
             // 
             // label1
@@ -234,7 +234,7 @@ namespace eAgenda.WindowsForms
             this.dateTimePickerData.Location = new System.Drawing.Point(491, 125);
             this.dateTimePickerData.Name = "dateTimePickerData";
             this.dateTimePickerData.Size = new System.Drawing.Size(340, 22);
-            this.dateTimePickerData.TabIndex = 22;
+            this.dateTimePickerData.TabIndex = 8;
             // 
             // maskedTextBoxHoraTermino
             // 
@@ -242,7 +242,7 @@ namespace eAgenda.WindowsForms
             this.maskedTextBoxHoraTermino.Mask = "00:00";
             this.maskedTextBoxHoraTermino.Name = "maskedTextBoxHoraTermino";
             this.maskedTextBoxHoraTermino.Size = new System.Drawing.Size(72, 22);
-            this.maskedTextBoxHoraTermino.TabIndex = 21;
+            this.maskedTextBoxHoraTermino.TabIndex = 5;
             this.maskedTextBoxHoraTermino.ValidatingType = typeof(System.DateTime);
             // 
             // textBoxIdContato
@@ -251,14 +251,14 @@ namespace eAgenda.WindowsForms
             this.textBoxIdContato.Location = new System.Drawing.Point(640, 55);
             this.textBoxIdContato.Name = "textBoxIdContato";
             this.textBoxIdContato.Size = new System.Drawing.Size(111, 22);
-            this.textBoxIdContato.TabIndex = 19;
+            this.textBoxIdContato.TabIndex = 7;
             // 
             // textBoxLocal
             // 
             this.textBoxLocal.Location = new System.Drawing.Point(66, 149);
             this.textBoxLocal.Name = "textBoxLocal";
             this.textBoxLocal.Size = new System.Drawing.Size(290, 22);
-            this.textBoxLocal.TabIndex = 18;
+            this.textBoxLocal.TabIndex = 3;
             // 
             // lblId
             // 
@@ -275,7 +275,7 @@ namespace eAgenda.WindowsForms
             this.textBoxId.Location = new System.Drawing.Point(492, 55);
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(111, 22);
-            this.textBoxId.TabIndex = 16;
+            this.textBoxId.TabIndex = 6;
             // 
             // dataGridViewCompromisso
             // 
@@ -336,7 +336,7 @@ namespace eAgenda.WindowsForms
             this.textBoxAssunto.Location = new System.Drawing.Point(66, 55);
             this.textBoxAssunto.Name = "textBoxAssunto";
             this.textBoxAssunto.Size = new System.Drawing.Size(290, 22);
-            this.textBoxAssunto.TabIndex = 2;
+            this.textBoxAssunto.TabIndex = 1;
             // 
             // btnNovo
             // 

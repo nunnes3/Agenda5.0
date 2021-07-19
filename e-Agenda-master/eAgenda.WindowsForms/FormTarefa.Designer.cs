@@ -33,6 +33,7 @@ namespace eAgenda.WindowsForms
             this.textBoxTitulo = new System.Windows.Forms.TextBox();
             this.textBoxPercentual = new System.Windows.Forms.TextBox();
             this.panelTarefas = new System.Windows.Forms.Panel();
+            this.radioButtonTodas = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxId = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -51,7 +52,6 @@ namespace eAgenda.WindowsForms
             this.btnInserir = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnNovo = new System.Windows.Forms.Button();
-            this.radioButtonTodas = new System.Windows.Forms.RadioButton();
             this.panelTarefas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTarefa)).BeginInit();
             this.SuspendLayout();
@@ -71,7 +71,7 @@ namespace eAgenda.WindowsForms
             this.textBoxTitulo.Location = new System.Drawing.Point(66, 55);
             this.textBoxTitulo.Name = "textBoxTitulo";
             this.textBoxTitulo.Size = new System.Drawing.Size(290, 22);
-            this.textBoxTitulo.TabIndex = 2;
+            this.textBoxTitulo.TabIndex = 1;
             // 
             // textBoxPercentual
             // 
@@ -106,6 +106,18 @@ namespace eAgenda.WindowsForms
             this.panelTarefas.Size = new System.Drawing.Size(836, 571);
             this.panelTarefas.TabIndex = 4;
             // 
+            // radioButtonTodas
+            // 
+            this.radioButtonTodas.AutoSize = true;
+            this.radioButtonTodas.Location = new System.Drawing.Point(493, 209);
+            this.radioButtonTodas.Name = "radioButtonTodas";
+            this.radioButtonTodas.Size = new System.Drawing.Size(69, 21);
+            this.radioButtonTodas.TabIndex = 18;
+            this.radioButtonTodas.TabStop = true;
+            this.radioButtonTodas.Text = "Todas";
+            this.radioButtonTodas.UseVisualStyleBackColor = true;
+            this.radioButtonTodas.CheckedChanged += new System.EventHandler(this.radioButtonTodas_CheckedChanged);
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -121,7 +133,7 @@ namespace eAgenda.WindowsForms
             this.textBoxId.Location = new System.Drawing.Point(486, 53);
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(111, 22);
-            this.textBoxId.TabIndex = 16;
+            this.textBoxId.TabIndex = 4;
             // 
             // label5
             // 
@@ -193,7 +205,7 @@ namespace eAgenda.WindowsForms
             this.comboBoxPrioridade.Location = new System.Drawing.Point(647, 53);
             this.comboBoxPrioridade.Name = "comboBoxPrioridade";
             this.comboBoxPrioridade.Size = new System.Drawing.Size(135, 24);
-            this.comboBoxPrioridade.TabIndex = 10;
+            this.comboBoxPrioridade.TabIndex = 5;
             // 
             // label3
             // 
@@ -237,7 +249,7 @@ namespace eAgenda.WindowsForms
             this.dateTimePickerConclusao.Location = new System.Drawing.Point(492, 134);
             this.dateTimePickerConclusao.Name = "dateTimePickerConclusao";
             this.dateTimePickerConclusao.Size = new System.Drawing.Size(290, 22);
-            this.dateTimePickerConclusao.TabIndex = 5;
+            this.dateTimePickerConclusao.TabIndex = 6;
             // 
             // dateTimePickerDataInicial
             // 
@@ -245,7 +257,7 @@ namespace eAgenda.WindowsForms
             this.dateTimePickerDataInicial.Location = new System.Drawing.Point(66, 134);
             this.dateTimePickerDataInicial.Name = "dateTimePickerDataInicial";
             this.dateTimePickerDataInicial.Size = new System.Drawing.Size(290, 22);
-            this.dateTimePickerDataInicial.TabIndex = 4;
+            this.dateTimePickerDataInicial.TabIndex = 2;
             // 
             // btnExcluir
             // 
@@ -289,18 +301,6 @@ namespace eAgenda.WindowsForms
             this.btnNovo.Text = "Novo";
             this.btnNovo.UseVisualStyleBackColor = true;
             this.btnNovo.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // radioButtonTodas
-            // 
-            this.radioButtonTodas.AutoSize = true;
-            this.radioButtonTodas.Location = new System.Drawing.Point(493, 209);
-            this.radioButtonTodas.Name = "radioButtonTodas";
-            this.radioButtonTodas.Size = new System.Drawing.Size(69, 21);
-            this.radioButtonTodas.TabIndex = 18;
-            this.radioButtonTodas.TabStop = true;
-            this.radioButtonTodas.Text = "Todas";
-            this.radioButtonTodas.UseVisualStyleBackColor = true;
-            this.radioButtonTodas.CheckedChanged += new System.EventHandler(this.radioButtonTodas_CheckedChanged);
             // 
             // FormTarefa
             // 
