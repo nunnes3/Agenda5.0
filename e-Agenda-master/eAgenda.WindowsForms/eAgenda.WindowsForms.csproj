@@ -69,51 +69,51 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BotoesECampos.cs" />
-    <Compile Include="FormSelecionarContato.cs">
+    <Compile Include="Forms\FormSelecionarContato.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSelecionarContato.Designer.cs">
+    <Compile Include="Forms\FormSelecionarContato.Designer.cs">
       <DependentUpon>FormSelecionarContato.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCompromisso.cs">
+    <Compile Include="Forms\FormCompromisso.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCompromisso.Designer.cs">
+    <Compile Include="Forms\FormCompromisso.Designer.cs">
       <DependentUpon>FormCompromisso.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormContato.cs">
+    <Compile Include="Forms\FormContato.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormContato.Designer.cs">
+    <Compile Include="Forms\FormContato.Designer.cs">
       <DependentUpon>FormContato.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTarefa.cs">
+    <Compile Include="Forms\FormTarefa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTarefa.Designer.cs">
+    <Compile Include="Forms\FormTarefa.Designer.cs">
       <DependentUpon>FormTarefa.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMenu.cs">
+    <Compile Include="Forms\FormMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMenu.Designer.cs">
+    <Compile Include="Forms\FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormSelecionarContato.resx">
+    <EmbeddedResource Include="Forms\FormSelecionarContato.resx">
       <DependentUpon>FormSelecionarContato.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCompromisso.resx">
+    <EmbeddedResource Include="Forms\FormCompromisso.resx">
       <DependentUpon>FormCompromisso.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormContato.resx">
+    <EmbeddedResource Include="Forms\FormContato.resx">
       <DependentUpon>FormContato.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMenu.resx">
+    <EmbeddedResource Include="Forms\FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTarefa.resx">
+    <EmbeddedResource Include="Forms\FormTarefa.resx">
       <DependentUpon>FormTarefa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
